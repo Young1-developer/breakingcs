@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer  base{
+    header{
+        background-image: url('../dist/img/feat_howard05__HP-social.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        background-blend-mode: multiply;
+        background-color: #222;
+        background-attachment: fixed;
+
+    }
+    .comp-sci{
+        background-image: url('../dist/img/hero2.jpg');
+        background-position:bottom center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        background-blend-mode: multiply;
+        background-color: #222;
+        background-attachment: fixed;
+    }
+    .about-hero{
+        background-image: url('../dist/img/strugle.jpg');
+        background-position:top center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        background-blend-mode: multiply;
+        background-color: #222;
+        background-attachment: fixed;
+    }
+    
+}
+@layer base{
+    .scroll-nav{
+        background-color: rgb(185, 28, 28);
+        color: #fff;
+        box-shadow: 0 13px 14px 13px rgba(0,0,0,0.7)
+        0 13px 14px 13px rgba(0,0,0,0.7)
+        0 13px 14px 13px rgba(0,0,0,0.7);
+        height: 10vh;
+        transition: 1s ease-in;
+        position: fixed;
+    }
+}

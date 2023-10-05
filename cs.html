@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science</title>
+    <link rel="stylesheet" href="/dist/style.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="bg-white font-sans">
+    <!-- HEADER AND THE SHOWCASE RAPPER SECTION -->
+    <header class="comp-sci">
+        <!-- first div for authors information -->
+        <div class="author  items-center p-8">
+            
+            <!-- infor -->
+            <span class="md:text-2xl text-base font-bold text-white">Information for authors:
+                 <a href="about.html" class="no-underline text-teal-700 transition hover:text-teal-950">  About us</a></span>
+        </div>
+
+      
+
+        <div class="showcase-content   mx-auto w-3/4 p-4">
+             <h1 class="md:text-5xl text-2xl font-bold text-white ">YUSMU I-T</h1>
+            <h1 class="md:text-5xl text-2xl font-bold text-white">Welcome to Our Computer Science Section</h1>
+            <p class="font-base text-white mt-2">Get Good Insights About Computer science.</p>
+           <button class="text-white
+           bg-red-700 rounded-md p-2 mt-6 text-center transition duration-300 hover:bg-red-800 ">
+           read more</button>
+        </div>
+    </header>
+
+     <!-- navigation bar -->
+     <nav class=" sticky z-50 top-0 p-8 h-32 w-full md:flex md:justify-between md:items-center md:space-x-6">
+        
+        <div class="flex justify-between items-center">
+            <!-- logo -->
+            <img src="img/Yiis.png" alt="logo" class="h-14 w-14 rounded-full z-10">
+  
+             <!-- Hanburga menu -->
+        <span class="md:text-3xl text-xl  md:hidden block ">
+            <i class="fa-solid fa-bars" id = 'menu' onclick="Menu(this);"></i>
+        </span>
+       
+        <span class="md:text-3xl text-xl hidden " id = 'close'>
+            <i class="fa-solid fa-x" onclick="Close(this);" ></i>
+        </span>
+
+        </div>
+       
+        <!-- ul -->
+        <ul class="md:flex list-none
+         md:space-x-6 md:items-center md:z[-1] md:w-auto w-full 
+         md:static absolute left-0 md:opacity-100 opacity-0
+         top-[-400] transition-all ease-in duration-500 bg-red-700 md:py-0 py-4 md:pl-0 p-7
+         " id="ul">
+          <li class="mx-4 my-6 md:my-0"> <a href="index.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">Home</a></li>
+          <li class="mx-4 my-6 md:my-0"> <a href="cs.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">computer science</a></li>
+          <li class="mx-4 my-6 md:my-0"> <a href="ce.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">computer engineering</a></li>
+          <li class="mx-4 my-6 md:my-0"> <a href="self.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">self taught</a></li>
+         
+       
+
+        </ul>
+
+       
+       </nav>
+
+
+<div class="timeline mt-8 p-4 relative container ">
+
+    <div class=" relative p-4">
+        <div class="textbox relative bg-white text-lg p-4 rounded-lg shadow-2xl">
+            <h2 class="md:text-3xl text-2xl font-bold">What is computer science</h2>
+            <p class="text-base">Computer Science is the study of computers and computational systems,
+                 including their design, analysis, implementation, and application. 
+                 It encompasses a wide range of topics related to computing, from 
+                 theoretical foundations to practical applications. Computer Science is not just 
+                limited to programming; it covers various aspects of computing 
+                technology and its impact on society.</p>
+        </div>
+    </div>
+
+    <div class=" relative p-4 ">
+        <div class="textbox relative bg-white shadow-2xl text-lg p-4 rounded-lg">
+          
+            <h2 class="md:text-3xl text-2xl font-bold">Sub fields of Computer Science</h2>
+            <p class="text-base">Subfields are specialized areas within the broader field of computer science. 
+                These subfields often focus on specific topics or aspects of computing. They represent more detailed areas
+                 of expertise that professionals and researchers can specialize in.
+                  Here are some examples of subfields:</p>
+                  <p>(1) Natural Language Processing (NLP)</p>
+                  <p>(2) Computer Vision</p>
+                   <p>(3) Robotics</p> 
+                  <p>(4) Parallel and Distributed Computing</p>  
+                   <p>(5) Cryptography</p> 
+                   <p>(6) Compiler Design</p>
+                  <p>(7) Bioinformatics</p>  
+                   <p>(8) Computational Linguistics</p> 
+                   <p>(9) Quantum Computing</p> 
+                  <p>(10) Educational Technology</p>  
+                   <p>(11) Social Computing</p> 
+                   <p>(12) E-commerce and Web Technologies</p>
+        </div>
+    </div>
+
+    <div class=" relative p-4   ">
+        <div class="textbox relative bg-white text-lg p-4 rounded-lg shadow-2xl">
+           
+            <h2 class="md:text-3xl text-2xl font-bold">Areas of Computer Science</h2>
+            <p class="text-base">Areas of computer science encompass broader themes that
+                 cover multiple subfields. These areas represent the main 
+                 categories of study and research within computer science. 
+                 While subfields are more specialized, areas provide a high-level 
+                classification of the major domains of knowledge in computer science. 
+                Here are some examples of areas:</p>
+
+                <p>(1) Theoretical Computer Science: Includes topics like algorithms, data structures, theory of computation, and computational complexity.</p>
+                <p>(2) Software Engineering: Encompasses software development methodologies, software design, testing, and maintenance.</p>
+                <p>(3) Artificial Intelligence (AI): Involves creating systems that mimic human intelligence, including machine learning, robotics, and natural language processing.</p>
+                <p>(4) Computer Systems: Focuses on computer architecture, operating systems, and system design.</p>
+                <p>(5) Database Systems: Includes database design, management, and querying.</p>
+                <p>(6) Networking: Covers computer networks, protocols, and network security.</p>
+                <p>(7) Human-Computer Interaction (HCI): Explores the interaction between humans and computers, including usability and user experience design.</p>
+                <p>(8) Graphics and Visualization: Involves creating and manipulating visual content, from 2D graphics to virtual reality.</p>
+                <p>(9) Security and Privacy: Focuses on safeguarding computer systems, data, and user privacy from various threats.</p>
+                <p>(10) Machine Learning and Data Science: Encompasses machine learning algorithms, data analysis, and pattern recognition.</p>
+                <p>(11) Web Development and Internet Technologies: Involves designing and building websites, web applications, and internet-based services.</p>
+                <p>(12) Computational Biology: Applies computational techniques to solve biological and medical problems.</p>
+                <p>(13) Embedded Systems: Focuses on designing and programming computing systems embedded in various devices.</p>
+                <p>(14) Quantum Computing and Quantum Information: Studies the principles and applications of quantum computation.</p>
+                <p>(15) Educational Technology and Online Learning: Explores the use of technology in education and e-learning platforms.</p>
+        </div>
+    </div>
+    <div class=" relative p-4  ">
+        <div class="textbox relative bg-white text-lg p-4 rounded-lg shadow-2xl">
+          
+            <h2 class="md:text-3xl  text-2xl font-bold">Carrier In Computer Science</h2>
+            <h3>(1) Software Developer/Engineer:</h3>
+            <p>Develops, tests, and maintains software applications and systems. They write code in various programming languages to create functional software solutions.</p>
+             <h3>(2) Data Scientist:</h3>
+             <p>Analyzes and interprets complex data to extract valuable insights. Data scientists use statistical and machine learning techniques to solve business problems.</p>
+             <h3>(3) Machine Learning Engineer:</h3>
+             <p>Designs and builds machine learning models and algorithms to enable computers to learn from data and make predictions or decisions.</p>
+             <h3>(4) Web Developer:</h3>
+            <p>Designs and develops websites and web applications. Web developers work on both front-end (user interface) and back-end (server-side) components.</p>
+            <h3>(5) Network Engineer:</h3>
+            <p>Designs, implements, and manages computer networks, ensuring data communication and connectivity between devices.</p>
+            <h3>(6) Cybersecurity Analyst:</h3>
+            <p>Protects computer systems and data from security breaches and attacks. They monitor for vulnerabilities and implement security measures.</p>
+            <h3>(7) Systems Analyst:</h3>
+            <p>Analyzes an organization's computer systems and processes to design efficient solutions that meet business needs.</p>
+            <h3>(8) Database Administrator:</h3>
+            <p>Manages and maintains databases, ensuring data integrity, availability, and security.</p>
+            <h3>(9) UI/UX Designer:</h3>
+            <p>Focuses on creating user-friendly and visually appealing interfaces for software applications and websites, enhancing user experience.</p>
+            <h3>(10) Cloud Solutions Architect:</h3>
+            <p>Designs and implements cloud-based infrastructure and solutions using platforms like AWS, Azure, or Google Cloud.</p>
+            <h3>(11) Game Developer:</h3>
+            <p>Designs, develops, and tests video games for various platforms, including consoles, PC, and mobile devices.</p>
+            <h3>(12) Embedded Systems Engineer:</h3>
+            <p>Designs and programs computing systems embedded in devices like smartphones, appliances, and automotive systems.</p>
+            <h3>(13) Artificial Intelligence Researcher:</h3>
+            <p>Conducts research in the field of AI to develop new algorithms and technologies that enable machines to perform tasks that require human intelligence.</p>
+            <h3>(14) Computer Vision Engineer:</h3>
+            <p>Develops algorithms and systems that enable computers to process, interpret, and understand visual information from the world.</p>
+            <h3>(15) Robotics Engineer:</h3>
+            <p>Designs and builds robots and autonomous systems, often involving mechanical engineering and programming.</p>
+            <h3>(16) Quantum Computing Scientist:</h3>
+            <p>Conducts research in the field of quantum computing to develop algorithms and technologies that leverage the principles of quantum mechanics.</p>
+            <h3>(17) Educational Technologist:</h3>
+            <p>Integrates technology into education to enhance learning experiences, develop e-learning materials, and manage educational platforms.</p>
+            <h3>(18) Natural Language Processing Specialist:</h3>
+            <p>Develops algorithms and systems that allow computers to understand, generate, and process human language.</p>
+            <h3>(19) Bioinformatics Scientist:</h3>
+            <p>Applies computational techniques to analyze biological data, such as DNA sequences, to gain insights into genetics and medicine.</p>
+            <h3>(20) IT Project Manager:</h3>
+            <p>Manages and coordinates technology projects, ensuring they are completed on time, within scope, and within budget. etc</p>
+        </div>
+    </div>
+    <div class=" relative p-4 ">
+        <div class="textbox relative bg-white text-lg p-4 rounded-lg shadow-2xl">
+          
+            <h2 class="md:text-3xl text-2xl font-bold">requirement to study computer science</h2>
+            <p><strong>Education:</strong>  A high school diploma or equivalent is required. A strong foundation in mathematics, including algebra, geometry, and calculus, is highly recommended.</p>
+            <p><strong>Prerequisites:</strong>  While not always mandatory, some schools might require or recommend coursework in computer science, physics, and additional math.</p>
+        </div>
+    </div>
+
+</div>
+
+<!-- best uni section -->
+<section class="table-section container w-3/4 mx-auto md:p-4 p-0 mt-8 shadow-2xl">
+    <h2 class="md:text-3xl text-2xl font-bold text-center">Best Universities for computer science</h2>
+<table class="border-collapse container mx-auto text-center mt-4 w-3/4 rounded-xl ">
+    <thead>
+        <tr>
+            <th class="border  p-2 border-black bg-gray-950 text-white">S/N</th>  
+         <th class="border  p-2 border-black bg-gray-950 text-white">University Names</th>
+         <th class="border p-2 border-black bg-gray-950 text-white">Country</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">1</td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">Massachusetts institute of Technology</td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">USA</td>
+        </tr>
+        <tr>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">2</td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">Stanford University</td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">USA</td>
+        </tr>
+       
+        <tr>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">3</td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">Carnegie mellon University</td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">USA</td>
+        </tr>
+
+        <tr>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">4</td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">University of Califonia, Berkeley </td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">USA</td>
+        </tr>
+
+        <tr>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">5</td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">Oxford University</td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">Uk</td>
+        </tr>
+
+        <tr>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">6</td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">ETH Zurich</td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">Switzerland</td>
+        </tr>
+
+        <tr>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">7</td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">National University of Singapore</td>
+            <td class="border p-1  border-black bg-gray-400 hover:text-white hover:bg-slate-500 transition duration-300">Singapore</td>
+        </tr>
+    </tbody>
+</table>
+</section>
+<!-- syllabus section -->
+
+
+<section class="table-section w-3/4 mx-auto p-4 mt-8 shadow-2xl">
+    <h2 class="md:text-3xl text-2xl font-bold text-center">Best syllabus for computer science</h2>
+    
+    <div class=" relative p-4 ">
+        <div class="textbox relative bg-white text-lg p-4 rounded-lg shadow-2xl">
+          <h2>First Year:</h2>
+          <p>1st semester</p>
+
+          <p>(1) <a href="https://www.edx.org/course/cs50s-introduction-to-computer-science" target="_blank" class="text-teal-600 no-underline">Introduction to computer science (harvard)</a></p>
+          <p>This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development.
+
+            Languages include C, Python, SQL, and JavaScript plus CSS and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming.</p>
+
+           <p>(2) <a href="https://www.edx.org/course/c-programming-getting-started" target="_blank" class="text-teal-600 no-underline">C programming getting started (Dartmouth)</a></p> 
+           <p>In this course, you will learn the principles of C programming and start coding hands-on in a browser tool that will provide instant feedback on your code. The C programming language is one of the most stable and popular programming languages in the world</p>
+           <p>It helps to power your smartphone, your car’s navigation system, robots, drones, trains, and almost all electronic devices. C is used in any circumstances where speed and flexibility are important, such as in embedded systems or high-performance computing.</p>
+           <p>In this course, you will get started with C and learn how to write your first programs, how to make simple computations and print the results to the screen, how to store values in variables and how to repeat instructions using loops.</p>
+           <p>Beginners, even those without any programming experience, will be able to immediately start coding in C with the help of powerful yet simple coding tools right within the web browser. No need to install anything!</p>
+         
+           <p>(3) <a href="https://www.edx.org/course/c-programming-language-foundations" target="_blank" class="text-teal-600 no-underline">C programming foundation (Dartmouth)</a></p> 
+           <p>In this course you will learn to use logical statements and arrays in C. Logical statements are used for decision-making with follow-up instructions, based on conditions you define.</p>
+           <p>Arrays are used to store, keep track of, and organize larger amounts of data. You will furthermore implement some fundamental algorithms to search and sort data.</p>
+           <p>Within moments of this course, you will be coding hands-on in a new browser tool developed specifically for this course, receiving instant feedback on your code. No need to install anything!</p>
+          
+
+           <p>(4) <a href="https://www.edx.org/course/calculus-1a-differentiation" target="_blank" class="text-teal-600 no-underline">Calculus 1a: Differentiation (MIT)</a></p>
+           <p>In this course, you will learn how to evaluate limits graphically and numerically, the physical meaning, and geometric interpretation of the derivative, to calculate the derivative of any function, to sketch many functions by hand, to make linear and quadratic approximations of functions, to apply derivatives to maximize and minimize functions and find related rates.</p>
+           
+           <p>(4) <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/" target="_blank" class="text-teal-600 no-underline">Mathematics for computer science (MIT)</a></p>
+           <iframe class=" aspect-video container mx-auto " width="800" height="400" src="https://www.youtube.com/embed/L3LMbpZIKhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           <p>This course covers elementary discrete mathematics for computer science and engineering. It emphasizes mathematical definitions and proofs as well as applicable methods.</p>
+           <p>Topics include formal logic notation, proof methods; induction, well-ordering; sets, relations; elementary graph theory; integer congruences; asymptotic notation and growth of functions; permutations and combinations, counting principles; discrete probability.</p> 
+           <p>Further selected topics may also be covered, such as recursive definition and structural induction; state machines and invariants; recurrences; generating functions.</p>
+           <p>Here are <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/" class="text-teal-600 no-underline">all the lectures</a></p>
+        </div>
+        </div>
+<!-- end od first semester -->
+
+<div class=" relative p-4 ">
+    <div class="textbox relative bg-white text-lg p-4 rounded-lg shadow-2xl">
+     
+      <p>2nd semester</p>
+
+      <p>(1) <a href="https://www.edx.org/course/object-oriented-programming-in-java-2" target="_blank" class="text-teal-600 no-underline">Object-Oriented programming in java (Microsoft)</a></p>
+     <p>In this Java course, examine the role of objects in code, explore how to use them, and see how to design them for optimal code reuse and structure. Get tons of hands-on coding experience using popular Java objects, like Arrays and Lists, and then leverage those learnings to design your own object hierarchies.</p>
+     <p>Plus, practice using inheritance, interfaces, abstract classes, and encapsulation techniques to help you manage large code bases.</p>
+
+       <p>(2) <a href="https://www.edx.org/course/calculus-1b-integration" target="_blank" class="text-teal-600 no-underline">Calculus 1b: Integration (MIT)</a></p> 
+        <p>You will learn to interpret it geometrically as an area under a graph and discover its connection to the derivative. You will encounter functions that you cannot integrate without a computer and develop a big bag of tricks to attack the functions that you can integrate by hand.</p>
+        <p>The integral is vital in engineering design, scientific analysis, probability and statistics. You will use integrals to find centers of mass, the stress on a beam during construction, the power exerted by a motor, and the distance traveled by rocket.</p>
+     
+       <p>(3) <a href="https://www.edx.org/course/combinatorial-mathematics-2" target="_blank" class="text-teal-600 no-underline">Combinational Mathematics (Tsinghua)</a></p> 
+       <p>In this course, you’ll learn the counting principles based on the basic operations “+”, “-”, “*”, “/”, generating functions, recurrent number serials such as Fibonacci number, Catalan number, Pigeon hole principles, Inclusion and exclusion principles, Polya counting based on group theory.</p>
+      
+       <p>(4) <a href="https://www.edx.org/course/computation-structures-2-computer-architecture-2" target="_blank" class="text-teal-600 no-underline">Computation Structures 2 Computer-architecture2 (MIT)</a></p>
+      <p>This computer science course is a bottom-up exploration of the abstractions, principles, and techniques used in the design of digital and computer systems. If you have a rudimentary knowledge of electricity and some exposure to programming, roll up your sleeves, join in and design a computer system!</p>
+    </div>
+ </div>  
+    <!-- end of first year -->
+
+    
+<div class=" relative p-4 ">
+    <div class="textbox relative bg-white text-lg p-4 rounded-lg shadow-2xl">
+      <h2>Second Year:</h2>
+      <p>3rd semester</p>
+
+      <p>(1) <a href="https://www.edx.org/course/data-science-probability" target="_blank" class="text-teal-600 no-underline">Provability (harvard)</a></p>
+    <p>In this course, we will introduce important concepts such as random variables, independence, Monte Carlo simulations, expected values, standard errors, and the Central Limit Theorem. These statistical concepts are fundamental to conducting statistical tests on data and understanding whether the data you are analyzing is likely occurring due to an experimental method or to chance.</p>
+
+
+       <p>(2) <a href="https://www.edx.org/course/statistics-and-r" target="_blank" class="text-teal-600 no-underline">Statistics and R (harvard)</a></p> 
+        <p>This course teaches the R programming language in the context of statistical data and statistical analysis in the life sciences. We will learn the basics of statistical inference in order to understand and compute p-values and confidence intervals, all while analyzing data with R code.</p>
+        <p>We provide R programming examples in a way that will help make the connection between concepts and implementation. Problem sets requiring R programming will be used to test understanding and the ability to implement basic data analyses. We will use visualization techniques to explore new data sets and determine the most appropriate approach.</p>
+        <p>We will describe robust statistical techniques as alternatives when data do not fit assumptions required by the standard approaches. By using R scripts to analyze data, you will learn the basics of conducting reproducible research.</p>
+
+
+       <p>(3) <a href="https://www.edx.org/course/algorithms-design-and-analysis" target="_blank" class="text-teal-600 no-underline">Algorithms: Design and Analysis, Part 1 (Stanford)</a></p> 
+       <p>This specialization is an introduction to algorithms for learners with at least a little programming experience. The specialization is rigorous but emphasizes the big picture and conceptual understanding over low-level implementation and mathematical details.</p>
+       <p>After completing this specialization, you will be well-positioned to ace your technical interviews and speak fluently about algorithms with other programmers and computer scientists. Specific topics in the course include: “Big-oh” notation, sorting and searching, divide and conquer (master method, integer, and matrix multiplication, closest pair), randomized algorithms (QuickSort, contraction algorithm for min cuts), data structures (heaps, balanced search trees, hash tables, bloom filters), graph primitives (applications of BFS and DFS, connectivity, shortest paths).</p>
+
+
+      
+       <p>(4) <a href="https://www.edx.org/course/linear-algebra-foundations-to-frontiers" target="_blank" class="text-teal-600 no-underline">linear-algebra: Foundations to Frontiers (UT Austin)</a></p>
+       <p>In this course, you will learn all the standard topics that are taught in typical undergraduate linear algebra courses all over the world, but using our unique method, you’ll also get more! LAFF was developed following the syllabus of an introductory linear algebra course at The University of Texas at Austin taught by Professor Robert van de Geijn, an expert on high-performance linear algebra libraries.</p>
+       <p>Through short videos, exercises, visualizations, and programming assignments, you will study Vector and Matrix Operations, Linear Transformations, Solving Systems of Equations, Vector Spaces, Linear Least-Squares, and Eigenvalues and Eigenvectors. In addition, you will get a glimpse of cutting-edge research on the development of linear algebra libraries, which are used throughout computational science.</p>
+
+
+     </div>
+    </div>
+<!-- end of second year -->
+
+<div class=" relative p-4 ">
+    <div class="textbox relative bg-white text-lg p-4 rounded-lg shadow-2xl">
+      <h2>Second Year:</h2>
+      <p>4th semester</p>
+
+      <p>(1) <a href="https://www.edx.org/course/algorithms-design-and-analysis-part-2-2?fbclid=IwAR0DlqnUAAb17syPsRCsadRgyZNiYgXHfh6Pw2weJkaFhwvqFhn0awQm-O8" target="_blank" class="text-teal-600 no-underline">Algorithms: Design and Analysis, part 2 (Stanford)</a></p>
+    <p>This course is an introduction to algorithms for learners with at least a little programming experience. The course is rigorous but emphasizes the big picture and conceptual understanding over low-level implementation and mathematical details. After completing this course, you will have a greater mastery of algorithms than almost anyone without a graduate degree in the subject.</p>
+    <p>Specific topics in Part 2 include: greedy algorithms (scheduling, minimum spanning trees, clustering, Huffman codes), dynamic programming (knapsack, sequence alignment, optimal search trees, shortest paths), NP-completeness and what it means for the algorithm designer, analysis of heuristics, local search.</p>
+
+
+       <p>(2) <a href="https://www.edx.org/course/software-engineering-introduction" target="_blank" class="text-teal-600 no-underline">Software Engineering Introduction (The University of British Columbia)</a></p> 
+       <p>In this course, you will learn software engineering principles that are applicable to the breadth of large-scale software systems. The course explores topics such as agile development, REST and Async programming, software specification, design, refactoring, information security, and more.</p>
+       <p>By the end of this course, learners will work in teams, applying an agile software development process to specify, design, and test multiple versions of complex software systems.</p>
+
+
+
+       <p>(3) <a href="https://www.edx.org/course/uml-class-diagrams-for-software-engineering" target="_blank" class="text-teal-600 no-underline">Algorithms: Design and Analysis, Part 1 (Stanford)</a></p> 
+       <p>This specialization is an introduction to algorithms for learners with at least a little programming experience. The specialization is rigorous but emphasizes the big picture and conceptual understanding over low-level implementation and mathematical details.</p>
+       <p>After completing this specialization, you will be well-positioned to ace your technical interviews and speak fluently about algorithms with other programmers and computer scientists. Specific topics in the course include: “Big-oh” notation, sorting and searching, divide and conquer (master method, integer, and matrix multiplication, closest pair), randomized algorithms (QuickSort, contraction algorithm for min cuts), data structures (heaps, balanced search trees, hash tables, bloom filters), graph primitives (applications of BFS and DFS, connectivity, shortest paths).</p>
+
+
+      
+       <p>(4) <a href="https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python" target="_blank" class="text-teal-600 no-underline">Introduction to Artificial Intelligence with Python (Harvard)</a></p>
+      <p>This course explores the concepts and algorithms at the foundation of modern artificial intelligence, diving into the ideas that give rise to technologies like game-playing engines, handwriting recognition, and machine translation</p>
+      <p>Through hands-on projects, students gain exposure to the theory behind graph search algorithms, classification, optimization, reinforcement learning, and other topics in artificial intelligence and machine learning as they incorporate them into their own Python programs.</p>
+      <p>y course’s end, students emerge with experience in libraries for machine learning as well as knowledge of artificial intelligence principles that enable them to design intelligent systems of their own.</p>
+
+
+        <p>(5) <a href="https://www.edx.org/course/computer-hardware-and-operating-systems" target="_blank" class="text-teal-600 no-underline">Computer Hardware and Operating Systems (NYU)</a></p>
+        <p>This course will cover topics including: Fundamentals of system hardware, Introduction to OS concepts, OS processes and threads, Thread concurrency and deadlocks, memory management.</p>
+      
+       
+
+     </div>
+    </div>
+
+  <!-- end of second year -->
+
+  <div class=" relative p-4 ">
+    <div class="textbox relative bg-white text-lg p-4 rounded-lg shadow-2xl">
+        <h2 class="text-3xl bg-blue-600 text-white p-2 m-2">Hey Take a BIG Break at this junction and then back</h2>
+      <h2>Third Year:</h2>
+      <p>5th semester</p>
+
+      <p>(1) <a href="https://www.edx.org/course/advanced-linear-algebra-foundations-to-frontiers" target="_blank" class="text-teal-600 no-underline">Advanced Linear Algebra: Foundations to Frontiers (UT Austin)</a></p>
+   <p>In this course you will learn Deciphering a matrix using the Singular Value Decomposition, Quantifying and qualifying numerical error, solving linear systems and linear least-squares problems, Computing and employing eigenvalues, and eigenvectors.</p>
+
+       <p>(2) <a href="https://www.edx.org/course/databases-5-sql" target="_blank" class="text-teal-600 no-underline">Databases: Relational Databases and SQL (Stanford)</a></p>
+       <p>Databases reside behind a huge fraction of websites; they’re a crucial component of telecommunications systems, banking systems, video games, and just about any other software system or electronic device that maintains some amount of persistent information.</p>
+
+
+
+       <p>(3) <a href="https://www.edx.org/course/machine-learning-with-python-a-practical-introduct" target="_blank" class="text-teal-600 no-underline">Machine Learning with Python: A Practical Introduction (IBM)</a></p> 
+<p>This Machine Learning with Python course dives into the basics of machine learning using Python, an approachable and well-known programming language. You’ll learn about supervised vs. unsupervised learning, look into how statistical modeling relates to machine learning, and do a comparison of each.</p>
+
+      
+       <p>(4) <a href="https://www.edx.org/course/robotics-2" target="_blank" class="text-teal-600 no-underline">Robotics (Columbia University)</a></p>
+      <p>In this course, you will learn to Represent 2D and 3D spatial relationships, homogeneous coordinates, manipulate robot arms: kinematic chains, forward and inverse kinematics, differential kinematics, Program and navigate mobile robots: robot and map representations, motion planning, plan complete robot systems, Develop present and future applications for robots.</p>
+
+
+        <p>(5) <a href ="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript" target="_blank" class="text-teal-600 no-underline">Web Programming with Python and JavaScript (Harvard)</a></p>
+       <p>The topics of this course include database design, scalability, security, and user experience. Through hands-on projects, you’ll learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By course’s end, you’ll emerge with knowledge and experience in principles, languages, and tools that empower you to design and deploy applications on the Internet.</p>
+      
+     </div>
+    </div>
+<!-- end of third semester-->
+
+
+
+
+<div class=" relative p-4 ">
+    <div class="textbox relative bg-white text-lg p-4 rounded-lg shadow-2xl">
+      <h2>Third Year:</h2>
+      <p>6th semester</p>
+
+      <p>(1) <a href="https://www.edx.org/course/computer-vision-fundamentals" target="_blank" class="text-teal-600 no-underline">Computer Vision Fundamentals with Watson and OpenCV (IBM)</a></p>
+       <p>In this course, you will utilize Python, Watson AI, and OpenCV to process images and interact with image classification models. You will also build, train, and test your own custom image classifiers. This is a hands-on course and involves several labs and exercises.</p>
+       
+       <p>(2) <a href="https://www.edx.org/course/deep-learning-essentials" target="_blank" class="text-teal-600 no-underline">Deep Learning Essentials (Universite de Montreal)</a></p>
+       <p>his course will help you to understand the basics and terminology related to Deep Learning, identify the types of neural networks to use to solve different types of problems, get familiar with Deep Learning libraries through practical and tutorial sessions.</p>
+
+
+       <p>(3) <a href="https://www.edx.org/course/natural-language-processing-nlp-2" target="_blank" class="text-teal-600 no-underline">Natural Language Processing (Microsoft)</a></p> 
+       <p>In this course, you will be given a thorough overview of Natural Language Processing and how to use classic machine learning methods. You will learn about Statistical Machine Translation as well as Deep Semantic Similarity Models (DSSM) and their applications. We will also discuss deep reinforcement learning techniques applied in NLP and Vision-Language Multimodal Intelligence.</p>
+      
+       <p>(4) <a href="https://www.edx.org/course/from-graph-to-knowledge-graph-algorithms-and-appli" target="_blank" class="text-teal-600 no-underline">From Graph to Knowledge Graph – Algorithms and Applications (Microsoft)</a></p>
+       <p>This course introduces the fundamental concepts and tools used in modeling large-scale graphs and knowledge graphs. You will learn a spectrum of techniques used to build applications that use graphs and knowledge graphs. These techniques range from traditional data analysis and mining methods to the emerging deep learning and embedding approaches.</p>
+      
+
+        <p>(5) <a href ="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript" target="_blank" class="text-teal-600 no-underline">Web Programming with Python and JavaScript (Harvard)</a></p>
+       <p>The topics of this course include database design, scalability, security, and user experience. Through hands-on projects, you’ll learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. By course’s end, you’ll emerge with knowledge and experience in principles, languages, and tools that empower you to design and deploy applications on the Internet.</p>
+      
+     </div>
+    </div>
+<!-- end of third year -->
+
+
+<div class=" relative p-4 ">
+    <div class="textbox relative bg-white text-lg p-4 rounded-lg shadow-2xl">
+      <h2>Fourth Year:</h2>
+      <p>7th semester</p>
+
+      <p>(1) <a href="https://www.edx.org/course/deep-learning-with-tensorflow" target="_blank" class="text-teal-600 no-underline">Deep Learning with Tensorflow (IBM)</a></p>
+       <p>In this TensorFlow course, you will learn the basic concepts of TensorFlow, the main functions, operations, and the execution pipeline. Starting with a simple “Hello World” example, throughout the course you will be able to see how TensorFlow can be used in curve fitting, regression, classification, and minimization of error functions.</p>
+
+
+      <p>(2) <a href="https://www.edx.org/course/deep-learning-with-python-and-pytorch" target="_blank" class="text-teal-600 no-underline">Deep Learning with Python and PyTorch (IBM)</a></p>
+       <p>The course will teach you how to develop Deep Learning models using Pytorch while providing the necessary deep-learning background. We’ll start off with PyTorch’s tensors and its Automatic Differentiation package.</p>
+
+
+       <p>(3) <a href="https://www.edx.org/course/reinforcement-learning-explained-2" target="_blank" class="text-teal-600 no-underline">Reinforcement Learning Explained (Microsoft)</a></p> 
+        <p>In this course, you will be introduced to the world of reinforcement learning. You will learn how to frame reinforcement learning problems and start tackling classic examples like news recommendation, learning to navigate in a grid-world, and balancing a cart-pole.</p>
+      
+       <p>(4) <a href="https://www.edx.org/course/convex-optimization" target="_blank" class="text-teal-600 no-underline">Convex Optimization (Stanford)</a></p>
+        <p>This course concentrates on recognizing and solving convex optimization problems that arise in applications. The syllabus includes: convex sets, functions, and optimization problems; basics of convex analysis; least-squares, linear and quadratic programs, semidefinite programming, minimax, extremal volume, and other problems; optimality conditions, duality theory, theorems of alternative, and applications; interior-point methods; applications to signal 
+            processing, statistics and machine learning, control, and mechanical engineering, digital and analog circuit design, and finance.</p>
+
+    
+     </div>
+    </div>
+<!-- end of 7th semester-->
+
+<div class=" relative p-4 ">
+    <div class="textbox relative bg-white text-lg p-4 rounded-lg shadow-2xl">
+      <h2>Fourth Year:</h2>
+      <p>8th semester</p>
+
+      <p>(1) <a href="https://www.edx.org/course/introduction-to-genomic-data-science" target="_blank" class="text-teal-600 no-underline">Introduction to Genomic Data Science (UC San Diego)</a></p>
+       <p>In the first half of this course, we’ll investigate DNA replication, and ask the question, where in the genome does DNA replication begin? You will learn how to answer this question for many bacteria using straightforward algorithms to look for hidden messages in the genome.</p>
+       <p>In the second half of the course, we’ll examine a different biological question, and ask which DNA patterns play the role of molecular clocks. The cells in your body manage to maintain a circadian rhythm, but how is this achieved on the level of DNA? Once again, we will see that by knowing which hidden messages to look for, we can start to understand the amazingly complex language of DNA. Perhaps surprisingly, we will apply randomized algorithms to solve problems.</p>
+       <p>Finally, you will get your hands dirty and apply existing software tools to find recurring biological motifs within genes that are responsible for helping Mycobacterium tuberculosis go “dormant” within a host for many years before causing an active infection.</p>
+
+      <p>(2) <a href="https://www.edx.org/course/data-storage-and-processing" target="_blank" class="text-teal-600 no-underline">Data Storage and Processing (ITMO)</a></p>
+      <p>This course is an introduction to initial data processing. We will start with data types and sources, methods of data preparation: cleaning, filling in the missing values, data smoothing, and normalization.</p>
+      <p>The course will familiarize you with descriptive statistics and data visualization methods. You will also learn how to analyze time series and find trends.</p>
+
+       <p>(3) <a href="https://www.edx.org/course/business-intelligence-for-iot-solutions" target="_blank" class="text-teal-600 no-underline">Busines Intelligence for IoT solutions (Microsoft)</a></p> 
+       <p>This course guides students through a series of lab activities that provide hands-on experience querying and visualizing data. After completing this course, students will be able to construct IoT data visualizations that allow a business to gain insights related to its operations.</p>
+
+
+       <p>(4) <a href="https://www.edx.org/course/operations-research-an-active-approach" target="_blank" class="text-teal-600 no-underline">Operations Research: An Active Learning Approach (Hong Kong Polytechnic University)</a></p>
+        <p>Operations Research (OR) deals with problem formulation and application of analytical methods to assist in the decision-making of operational problems in planning and control.</p>
+        <p>This course is designed for both students learning OR and learners who are practitioners in their respective professionals. The mathematical procedures for the OR techniques are introduced in detail in the examples provided in the course.</p>
+        <p>This helps learners to master the methodology and the techniques and apply them to achieve their goals through active learning. This course introduces two prominent OR techniques and their extended topics.</p>
+    
+     </div>
+    </div>
+   <!-- end of the courses -->
+
+   <div class=" relative p-4 mt-6">
+    <div class="textbox relative bg-white text-lg p-4 rounded-lg shadow-2xl">
+      <h2 class="text-lg font-bold">Conculution</h2>
+      
+      <p>So, this is our combined Computer Science and Engineering curriculum from the best and most prestigious universities in the world and from some of the best IT companies in the world.</p>
+      <p>As we’ve already mentioned, all of the courses are FREE to enroll in, and all of the materials are FREE. In each of the courses, you can get a certificate that costs money, and you can take the certificate if you want to, but we suggest not to.</p>
+     <p>The most important thing is that you will gain knowledge from these top institutions and you will make and build tons of applications that later at your job interviews will be valued way more than any certificate or diploma.</p>
+      
+     </div>
+    </div>
+   
+
+
+</section>
+
+<!-- last section -->
+<section class=" bg-red-400 text-white font-semibold mt-32">
+
+    <div class="flex justify-between mx-auto">
+        <div class="learn p-2 mt-4 text-left">
+            <h2 class="text-3xl">Breaking CS & CE</h2>
+            <p class="text-2xl">Know exactly where to go</p>
+        </div>
+        <div class="Learn p-2 mt-4 text-left">
+            <h1 class="text-3xl">Learn</h1>
+           <li class="list-none"><a href="index.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">Home</a></li> 
+          <li  class="list-none"><a href="cs.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">Computer science</a></li>  
+          <li  class="list-none"><a href="ce.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">Computer engineering</a></li>  
+        <li  class="list-none"> <a href="self.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">self taught</a></li>   
+        </div>
+    
+    </section>
+    </div>
+    
+
+
+<footer class="text-center bg-red-950 p-6 font-semibold text-white hover:text-gray-300 transition duration-300">
+    <p> Copy&copy;right 2023 Design & manage by <a href="https://yusmui-t.github.io" target="_blank"
+         class="hover:text-gray-300 transition duration-300">yusmui-t.github.io</a></p>
+</footer>
+
+<button id="scrollToTopButton" class="hidden fixed bottom-4 right-4 p-3
+ bg-red-500 text-white rounded-md shadow">Scroll to Top</button>
+ <script src="index.js"></script>
+</body>
+</html>

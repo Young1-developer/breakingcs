@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self taught</title>
+    <link rel="stylesheet" href="/dist/style.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="bg-white font-sans">
+    <!-- HEADER AND THE SHOWCASE RAPPER SECTION -->
+    <header class="about-hero">
+        <!-- first div for authors information -->
+        <div class="author  items-center p-8">
+            
+            <!-- infor -->
+            <span class="md:text-2xl text-base font-bold text-white">Information for authors:
+                 <a href="about.html" class="no-underline text-teal-700 transition hover:text-teal-950">  About us</a></span>
+        </div>
+
+      
+
+        <div class="showcase-content   mx-auto w-3/4 p-4">
+             <h1 class="md:text-5xl text-2xl font-bold text-white ">YUSMU I-T</h1>
+            <h1 class="md:text-5xl text-2xl font-bold text-white">Welcome to Our About Us Section</h1>
+            <p class="font-base text-white mt-2">Get Good Insights About US.</p>
+           <button class="text-white
+           bg-red-700 rounded-md p-2 mt-6 text-center transition duration-300 hover:bg-red-800 ">
+           read more</button>
+        </div>
+    </header>
+
+     <!-- navigation bar -->
+     <nav class=" sticky z-50 top-0 p-8 h-32 w-full md:flex md:justify-between md:items-center md:space-x-6">
+        
+        <div class="flex justify-between items-center">
+            <!-- logo -->
+            <img src="img/Yiis.png" alt="logo" class="h-14 w-14 rounded-full z-10">
+  
+             <!-- Hanburga menu -->
+        <span class="md:text-3xl text-xl  md:hidden block ">
+            <i class="fa-solid fa-bars" id = 'menu' onclick="Menu(this);"></i>
+        </span>
+       
+        <span class="md:text-3xl text-xl hidden " id = 'close'>
+            <i class="fa-solid fa-x" onclick="Close(this);" ></i>
+        </span>
+
+        </div>
+       
+        <!-- ul -->
+        <ul class="md:flex list-none
+         md:space-x-6 md:items-center md:z[-1] md:w-auto w-full 
+         md:static absolute left-0 md:opacity-100 opacity-0
+         top-[-400] transition-all ease-in duration-500 bg-red-700 md:py-0 py-4 md:pl-0 p-7
+         " id="ul">
+          <li class="mx-4 my-6 md:my-0"> <a href="index.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">Home</a></li>
+          <li class="mx-4 my-6 md:my-0"> <a href="cs.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">computer science</a></li>
+          <li class="mx-4 my-6 md:my-0"> <a href="ce.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">computer engineering</a></li>
+          <li class="mx-4 my-6 md:my-0"> <a href="self.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">self taught</a></li>
+    
+        </ul>  
+       </nav>
+<!-- end of Navigation  -->
+
+
+<!-- About us section -->
+
+<section class="p-4 mt-6 mx-auto container">
+    <figure class="md:flex bg-slate-200 rounded-xl p-8 md:p-0 dark:bg-slate-800 ">
+        <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="img/usama.jpg" alt="" width="384" height="512">
+        <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+          <blockquote>
+            <p class="text-lg font-medium">
+              “I am Usama A. Sani, am graduated from 
+              secondary school but faced financial challenges that prevented me from entering university. 
+              Despite this obstacle, I was passionate about computer science and my desire to learn led me 
+              to buy a smartphone. Through self-guided learning by watching videos, I chose to become a web developer with a focus on front-end development. my enthusiasm for acquiring
+               new knowledge and skills has driven my journey as I work towards achieving my goals.
+                I bought my first laptop as a result of teaching mathematics in junior secondary school , since then I just upgrade whenever I have money.
+                Here is short about me.”
+            </p>
+          </blockquote>
+          <figcaption class="font-medium">
+            <div class="text-sky-500 dark:text-sky-400">
+              Usama .A. Sani
+            </div>
+            <div class="text-slate-700 dark:text-slate-500">
+              Web Developer 
+            </div>
+          </figcaption>
+        </div>
+      </figure>
+      <!-- end of first infor -->
+
+
+      <figure class="md:flex bg-slate-200 mt-4 rounded-xl p-8 md:p-0  dark:bg-slate-800">
+       
+        <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+          <blockquote>
+            <p class="text-lg font-medium">
+              “About me , comming soon...”
+            </p>
+          </blockquote>
+          <figcaption class="font-medium">
+            <div class="text-sky-500 dark:text-sky-400">
+                Mubarak Dalhatu
+            </div>
+            <div class="text-slate-700 dark:text-slate-500">
+            IoT Engineer 
+            </div>
+          </figcaption>
+        </div>
+        <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="img/mubarakh.png" alt="" width="384" height="512">
+      </figure>
+</section>
+
+<!-- End of About us section -->
+
+
+<!-- last section -->
+<section class=" bg-red-400 text-white font-semibold mt-32">
+
+    <div class="flex justify-between mx-auto">
+        <div class="learn p-2 mt-4 text-left">
+            <h2 class="text-3xl">Breaking CS & CE</h2>
+            <p class="text-2xl">Know exactly where to go</p>
+        </div>
+        <div class="Learn p-2 mt-4 text-left">
+            <h1 class="text-3xl">Learn</h1>
+           <li class="list-none"><a href="index.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">Home</a></li> 
+          <li  class="list-none"><a href="cs.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">Computer science</a></li>  
+          <li  class="list-none"><a href="ce.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">Computer engineering</a></li>  
+        <li  class="list-none"> <a href="self.html" class="text-white hover:text-gray-300 transition duration-300 capitalize">self taught</a></li>   
+        </div>
+    
+    </section>
+    </div>
+    
+
+
+<footer class="text-center bg-red-950 p-6 font-semibold text-white hover:text-gray-300 transition duration-300">
+    <p> Copy&copy;right 2023 Design & manage by <a href="https://yusmui-t.github.io" target="_blank"
+         class="hover:text-gray-300 transition duration-300">yusmui-t.github.io</a></p>
+</footer>
+
+<button id="scrollToTopButton" class="hidden fixed bottom-4 right-4 p-3
+ bg-red-500 text-white rounded-md shadow">Scroll to Top</button>
+ <script src="index.js"></script>
+</body>
+</html>
